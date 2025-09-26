@@ -1,0 +1,24 @@
+# 🧠 Brain Tumor Detection using Deep Learning  
+
+A deep learning-based project to detect brain tumors from MRI scans.  
+Built with **TensorFlow/Keras** for model training and **Flask** for deploying a web-based interface.  
+
+---
+
+## 🚀 Features  
+✅ **Custom Deep Learning Model** – Train from scratch using `model.ipynb`.  
+✅ **Automated Training Pipeline** – Preprocesses data, trains CNN, and saves the model.  
+✅ **Web Application** – Run `app.py` to launch a Flask web app for image upload & prediction.  
+✅ **Interactive UI** – Simple web interface to check MRI scan results in real-time.  
+
+---
+
+## 🧾 Project Workflow  
+
+```mermaid
+graph TD;
+    A[Dataset (MRI Images)] --> B[Data Preprocessing]
+    B --> C[Train Model (model.ipynb)]
+    C --> D[Save Trained Model]
+    D --> E[Flask App (app.py)]
+    E --> F[Web Interface for Prediction]
